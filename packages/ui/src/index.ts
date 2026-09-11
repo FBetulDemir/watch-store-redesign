@@ -1,8 +1,10 @@
+export { BrandMark, type BrandMarkProps } from "./BrandMark";
 export { Button, type ButtonProps } from "./Button";
 export { Container, type ContainerProps } from "./Container";
 export { Heading, type HeadingProps } from "./Heading";
 export { Image, type ImageProps } from "./Image";
 export { Link, type LinkProps } from "./Link";
 export { Section, type SectionProps } from "./Section";
+export { SiteFooter, type SiteFooterProps, type SocialLink } from "./SiteFooter";
+export { SiteHeader, type NavigationItem, type SiteHeaderProps } from "./SiteHeader";
 export { Text, type TextProps } from "./Text";
-

@@ -1,7 +1,7 @@
 :root {
-  color: #f4f1ea;
-  background: #121212;
-  font-family: Inter, system-ui, sans-serif;
+  color: var(--color-text);
+  background: var(--color-background);
+  font-family: var(--font-family-sans);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 }
@@ -16,37 +16,50 @@ body {
   margin: 0;
 }
 
-main {
-  display: grid;
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+.site-shell {
+  display: flex;
   min-height: 100vh;
-  align-content: center;
-  padding: clamp(2rem, 8vw, 8rem);
+  flex-direction: column;
+}
+
+#main-content {
+  display: grid;
+  min-height: 70vh;
+  flex: 1;
+  align-items: center;
+  background:
+    linear-gradient(105deg, rgb(245 243 239 / 98%), rgb(245 243 239 / 78%)),
+    radial-gradient(circle at 85% 20%, var(--color-stone), transparent 42%);
+}
+
+.placeholder {
+  padding-block: clamp(var(--space-20), 12vw, var(--space-32));
 }
 
 .eyebrow {
-  margin: 0 0 1rem;
-  color: #b9a47a;
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.2em;
+  margin-block-end: var(--space-4);
+  color: var(--color-brand-pine);
+  font-weight: 600;
+  letter-spacing: var(--letter-spacing-caps);
   text-transform: uppercase;
 }
 
-h1 {
+.placeholder .wc-heading {
   max-width: 12ch;
-  margin: 0;
-  font-family: Georgia, serif;
-  font-size: clamp(3rem, 9vw, 8rem);
-  font-weight: 400;
-  letter-spacing: -0.04em;
-  line-height: 0.95;
 }
 
 .intro {
   max-width: 34rem;
-  margin: 2rem 0 0;
-  color: #aaa69f;
-  font-size: clamp(1rem, 2vw, 1.25rem);
-  line-height: 1.6;
+  margin-block-start: var(--space-8);
 }
-
