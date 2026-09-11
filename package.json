@@ -2,7 +2,7 @@
   "name": "watch-company-redesign",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@12.3.4",
+  "packageManager": "pnpm@10.34.5",
   "engines": {
     "node": ">=22.12.0"
   },
@@ -12,4 +12,3 @@
     "typecheck": "pnpm --recursive typecheck"
   }
 }
-

@@ -5,7 +5,7 @@ A portfolio storefront built as a pnpm monorepo. The project will demonstrate a 
 ## Requirements
 
 - Node.js 22.12 or newer
-- pnpm 12.3.4
+- pnpm 10.34.5
 
 ## Getting started
 
@@ -30,4 +30,3 @@ packages/
 - `pnpm dev` starts the storefront development server.
 - `pnpm build` builds every workspace package.
 - `pnpm typecheck` type-checks every workspace package.
-
