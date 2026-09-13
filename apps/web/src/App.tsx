@@ -6,6 +6,7 @@ import {
 } from "@watch-company/ui";
 
 import { AboutHero } from "./features/about/AboutHero";
+import { CompanyStory } from "./features/about/CompanyStory";
 
 const navigation: readonly NavigationItem[] = [
   { label: "Home", href: "/" },
@@ -33,6 +34,7 @@ export function App() {
 
       <main id="main-content">
         <AboutHero />
+        <CompanyStory />
       </main>
 
       <SiteFooter
