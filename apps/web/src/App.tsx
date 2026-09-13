@@ -1,12 +1,11 @@
 import {
-  Container,
-  Heading,
   SiteFooter,
   SiteHeader,
-  Text,
   type NavigationItem,
   type SocialLink,
 } from "@watch-company/ui";
+
+import { AboutHero } from "./features/about/AboutHero";
 
 const navigation: readonly NavigationItem[] = [
   { label: "Home", href: "/" },
@@ -33,17 +32,7 @@ export function App() {
       />
 
       <main id="main-content">
-        <Container className="placeholder" size="wide">
-          <Text className="eyebrow" size="sm">
-            About us
-          </Text>
-          <Heading as="h1" size="display">
-            More than time. A connected tomorrow.
-          </Heading>
-          <Text className="intro" size="lg" tone="muted">
-            The global layout is ready. The editorial About page hero comes next.
-          </Text>
-        </Container>
+        <AboutHero />
       </main>
 
       <SiteFooter

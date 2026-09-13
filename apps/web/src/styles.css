@@ -34,32 +34,5 @@ a {
 }
 
 #main-content {
-  display: grid;
-  min-height: 70vh;
   flex: 1;
-  align-items: center;
-  background:
-    linear-gradient(105deg, rgb(245 243 239 / 98%), rgb(245 243 239 / 78%)),
-    radial-gradient(circle at 85% 20%, var(--color-stone), transparent 42%);
-}
-
-.placeholder {
-  padding-block: clamp(var(--space-20), 12vw, var(--space-32));
-}
-
-.eyebrow {
-  margin-block-end: var(--space-4);
-  color: var(--color-brand-pine);
-  font-weight: 600;
-  letter-spacing: var(--letter-spacing-caps);
-  text-transform: uppercase;
-}
-
-.placeholder .wc-heading {
-  max-width: 12ch;
-}
-
-.intro {
-  max-width: 34rem;
-  margin-block-start: var(--space-8);
 }
