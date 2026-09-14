@@ -2,8 +2,20 @@
   object-position: 52% center;
 }
 
+.sustainability .content-split__image-label {
+  right: var(--space-6);
+  left: auto;
+  align-items: flex-end;
+  text-align: right;
+}
+
 .sustainability__link {
   justify-self: start;
   margin-block-start: var(--space-3);
 }
 
+@media (min-width: 48rem) {
+  .sustainability .content-split__image-label {
+    right: var(--space-12);
+  }
+}
