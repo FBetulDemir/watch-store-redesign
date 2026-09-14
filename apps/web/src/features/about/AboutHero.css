@@ -22,7 +22,8 @@
 }
 
 .about-hero__title {
-  max-width: 13ch;
+  max-width: 26ch;
+  font-size: clamp(2.75rem, 3.25vw, 3.5rem);
   text-wrap: balance;
 }
 
@@ -66,7 +67,7 @@
   }
 
   .about-hero__content {
-    width: min(100% - 5rem, 38rem);
+    width: min(100% - 10rem, 40rem);
     margin-inline: auto;
     padding-block: var(--space-24);
   }

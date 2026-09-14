@@ -11,6 +11,7 @@ export interface ContentSplitProps {
   image: {
     alt: string;
     label?: string;
+    loading?: "eager" | "lazy";
     src: string;
   };
   imagePosition?: "left" | "right";
@@ -53,6 +54,7 @@ export function ContentSplit({
         <Image
           alt={image.alt}
           className="content-split__image"
+          loading={image.loading}
           src={image.src}
         />
         {image.label && (

@@ -12,6 +12,7 @@ export function CompanyStory() {
       image={{
         alt: "Sunrise over a quiet Nordic archipelago with granite rocks and pine trees",
         label: "Tradition meets tomorrow",
+        loading: "eager",
         src: coastImage,
       }}
       imagePosition="left"

@@ -2,6 +2,10 @@
   border-block: 1px solid var(--color-border);
 }
 
+.values-grid.wc-section {
+  padding-block: 0;
+}
+
 .values-grid__inner {
   display: grid;
 }
@@ -36,4 +40,3 @@
     border-left: 1px solid var(--color-border);
   }
 }
-

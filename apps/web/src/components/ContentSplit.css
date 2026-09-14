@@ -21,7 +21,8 @@
 }
 
 .content-split__title {
-  max-width: 18ch;
+  max-width: 28ch;
+  font-size: clamp(2rem, 2.7vw, 2.8rem);
   text-wrap: balance;
 }
 
@@ -90,7 +91,7 @@
   }
 
   .content-split__content {
-    width: min(100% - 6rem, 38rem);
+    width: min(100% - 7rem, 38rem);
     padding-block: var(--space-20);
   }
 
@@ -107,4 +108,3 @@
     min-height: 100%;
   }
 }
-
