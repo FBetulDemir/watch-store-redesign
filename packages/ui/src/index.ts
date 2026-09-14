@@ -1,6 +1,7 @@
 export { BrandMark, type BrandMarkProps } from "./BrandMark";
 export { Button, type ButtonProps } from "./Button";
 export { Container, type ContainerProps } from "./Container";
+export { FeatureCard, type FeatureCardProps } from "./FeatureCard";
 export { Heading, type HeadingProps } from "./Heading";
 export { Image, type ImageProps } from "./Image";
 export { Link, type LinkProps } from "./Link";

@@ -1,0 +1,39 @@
+.values-grid {
+  border-block: 1px solid var(--color-border);
+}
+
+.values-grid__inner {
+  display: grid;
+}
+
+.values-grid__card {
+  padding-block: var(--space-10);
+}
+
+.values-grid__card + .values-grid__card {
+  border-top: 1px solid var(--color-border);
+}
+
+@media (min-width: 48rem) {
+  .values-grid__inner {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .values-grid__card {
+    padding: var(--space-12) clamp(var(--space-6), 4vw, var(--space-12));
+  }
+
+  .values-grid__card:first-child {
+    padding-inline-start: 0;
+  }
+
+  .values-grid__card:last-child {
+    padding-inline-end: 0;
+  }
+
+  .values-grid__card + .values-grid__card {
+    border-top: 0;
+    border-left: 1px solid var(--color-border);
+  }
+}
+

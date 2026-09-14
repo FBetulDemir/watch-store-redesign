@@ -7,6 +7,7 @@ import {
 
 import { AboutHero } from "./features/about/AboutHero";
 import { CompanyStory } from "./features/about/CompanyStory";
+import { ValuesGrid } from "./features/about/ValuesGrid";
 
 const navigation: readonly NavigationItem[] = [
   { label: "Home", href: "/" },
@@ -35,6 +36,7 @@ export function App() {
       <main id="main-content">
         <AboutHero />
         <CompanyStory />
+        <ValuesGrid />
       </main>
 
       <SiteFooter

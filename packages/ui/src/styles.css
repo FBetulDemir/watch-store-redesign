@@ -265,6 +265,39 @@
   background: var(--color-brand-pine-deep);
 }
 
+.wc-feature-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.wc-feature-card__icon {
+  display: grid;
+  width: 3rem;
+  height: 3rem;
+  margin-block-end: var(--space-5);
+  place-items: center;
+  color: var(--color-brand-pine);
+}
+
+.wc-feature-card__icon > svg {
+  width: 100%;
+  height: 100%;
+  stroke: currentcolor;
+}
+
+.wc-feature-card__title {
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  letter-spacing: var(--letter-spacing-caps);
+  text-transform: uppercase;
+}
+
+.wc-feature-card__content {
+  max-width: 19rem;
+  margin-block-start: var(--space-4);
+}
+
 .wc-heading {
   margin: 0;
   color: inherit;
