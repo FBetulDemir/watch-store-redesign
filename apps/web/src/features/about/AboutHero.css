@@ -31,7 +31,7 @@
   margin-block-start: var(--space-6);
 }
 
-.about-hero__link {
+.about-hero__link.wc-link {
   align-self: flex-start;
   margin-block-start: var(--space-8);
   color: var(--color-white);
@@ -75,4 +75,3 @@
     min-height: 100%;
   }
 }
-
