@@ -1,0 +1,9 @@
+.sustainability .content-split__image {
+  object-position: 52% center;
+}
+
+.sustainability__link {
+  justify-self: start;
+  margin-block-start: var(--space-3);
+}
+

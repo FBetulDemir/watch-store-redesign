@@ -6,8 +6,11 @@ import {
 } from "@watch-company/ui";
 
 import { AboutHero } from "./features/about/AboutHero";
+import { CareersCta } from "./features/about/CareersCta";
 import { CompanyStory } from "./features/about/CompanyStory";
 import { ProductShowcase } from "./features/about/ProductShowcase";
+import { StatisticsStrip } from "./features/about/StatisticsStrip";
+import { Sustainability } from "./features/about/Sustainability";
 import { ValuesGrid } from "./features/about/ValuesGrid";
 
 const navigation: readonly NavigationItem[] = [
@@ -39,6 +42,9 @@ export function App() {
         <CompanyStory />
         <ValuesGrid />
         <ProductShowcase />
+        <StatisticsStrip />
+        <Sustainability />
+        <CareersCta />
       </main>
 
       <SiteFooter
