@@ -7,6 +7,7 @@ import {
 
 import { AboutHero } from "./features/about/AboutHero";
 import { CompanyStory } from "./features/about/CompanyStory";
+import { ProductShowcase } from "./features/about/ProductShowcase";
 import { ValuesGrid } from "./features/about/ValuesGrid";
 
 const navigation: readonly NavigationItem[] = [
@@ -37,6 +38,7 @@ export function App() {
         <AboutHero />
         <CompanyStory />
         <ValuesGrid />
+        <ProductShowcase />
       </main>
 
       <SiteFooter

@@ -21,7 +21,7 @@ export function CompanyStory() {
         Festina Group has been part of the watch industry for over a century,
         building iconic brands and a deep understanding of what makes a watch
         meaningful. Today, through <strong>Festina Group Technology</strong>, we
-        are taking the next step—combining this heritage with innovation,
+        are taking the next step by combining this heritage with innovation,
         connectivity and data to shape the future of time.
       </Text>
       <Text size="md" tone="muted">
